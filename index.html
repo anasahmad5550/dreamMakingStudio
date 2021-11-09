@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
-    <link rel="stylesheet" href="css/index.css">
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="index.css">
+    <title>A dream</title>
   </head>
   <body>
 
@@ -20,15 +20,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
     <div class="header">
-      <div class="nav-flex p-4 ">
+      <div class="nav-flex p-4 nav-mobile">
         <div>
-          <img src="logo-header.png" width="50" height="50">
+          <img src="assets/logo-header.png" width="50" height="50">
         </div>
         <div >
           <nav class="navbar navbar-expand-lg navbar-light">
             <div class="collapse navbar-collapse nav-menu" id="navbarTogglerDemo01">
 
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0 example-2">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav-hover">
                 <li class="nav-item active nav-menu">
                   <a class="nav-link text-white" href="#">HOME <span class="sr-only">(current)</span></a>
                 </li>
@@ -48,63 +48,53 @@
                   <a class="nav-link text-white" href="#">ELEMENTS</a>
                 </li>
                 <li lass="nav-item nav-menu">
-                  <i class="fas fa-search search-icon"></i>
+                  <a class="nav-link text-white" href="#"><i class="fas fa-search search-icon"></i></a>
                 </li>
+
               </ul>
             </div>
           </nav>
         </div>
       </div>
 
-      <div class="col hero-text">
+      <div class="col text-center hero-text ">
         <h1 class="subject">A DREAM MAKING STUDIO</h1>
-        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-danger buy-theme">BUY THEME</button>
       </div>
-      <!-- <div class="row text-center">
-        <div class="col text-center">
-          <h1 class="subject">A DREAM MAKING STUDIO</h1>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col d-flex justify-content-center">
-          <button type="button" class="btn btn-danger">Danger</button>
-        </div>
-      </div> -->
     </div>
-    <div class="games p-5 no-gutters">
-      <div class="row justify-content-center">
+    <div class="games p-5">
+      <div class="row no-gutters justify-content-center">
         <h2>FIND OUR GAME ON APPSTORE</h2>
       </div>
-      <div class="row justify-content-center">
-        <hr style="height:2px; width:50%; border-width:0; color:red; background-color:red">
+      <div class="row no-gutters justify-content-center">
+        <hr class="divider-line" >
       </div>
-      <div class="row no-gutters justify-content-around">
-        <div class="col-lg-2 ml-5  justify-content-center">
-          <img src="h2-custom-icon-img-1.png">
-          <h3>BLAZE LORDS</h3>
-          <img src="h2-img-1.png">
+      <div class="row no-gutters justify-content-center">
+        <div class="col-lg-2 p-5 text-center">
+          <img src="assets/h2-custom-icon-img-1.png " class="img-fluid">
+          <h5 class="h5-game-name mt-3">BLAZE LORDS</h5>
+          <img src="assets/h2-img-1.png" class="mt-3 img-fluid">
         </div>
-        <div class="col-lg-2  justify-content-center">
-          <img src="h2-custom-icon-img-2.png">
-          <h3>MOVING CASTLE</h3>
-          <img src="h2-img-1.png">
+        <div class="col-lg-2 p-5 text-center">
+          <img src="assets/h2-custom-icon-img-2.png" class="img-fluid">
+          <h5 class="h5-game-name mt-3">MOVING CASTLE</h5>
+          <img src="assets/h2-img-1.png" class="mt-3 img-fluid">
         </div>
-        <div class="col-lg-2 justify-content-center">
-          <img src="h2-custom-icon-img-3.png">
-          <h3>GREAT JOURNEY</h3>
-          <img src="h2-img-1.png">
+        <div class="col-lg-2 p-5 text-center">
+          <img src="assets/h2-custom-icon-img-3.png" class="img-fluid">
+          <h5 class="h5-game-name mt-3">GREAT JOURNEY</h5>
+          <img src="assets/h2-img-1.png" class="mt-3 img-fluid">
         </div>
-        <div class="col-lg-2 justify-content-center">
-          <img src="h2-custom-icon-img-4.png">
-          <h3>SEA GOD</h3>
-          <img src="h2-img-1.png">
+        <div class="col-lg-2 p-5 text-center">
+          <img src="assets/h2-custom-icon-img-4.png" class="img-fluid">
+          <h5 class="h5-game-name mt-3">SEA GOD</h5>
+          <img src="assets/h2-img-1.png" class="mt-3 img-fluid">
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <img src="h2-img-2.jpg">
+    <div class="row no-gutters">
+      <div class="col-lg-6 ">
+        <img src="assets/h2-img-2.jpg" class="img-fluid">
       </div>
       <div class="col-lg-6 make-dreams p-5 make-dreams-flex">
         <h1 class="h1-font">WE MAKE DREAMS</h1>
@@ -117,6 +107,96 @@
         <button type="button" class="btn btn-danger btn-learn-more">LEARN MORE</button>
       </div>
     </div>
+    <div class="container-fluid user-reviews">
+      <div class="row no-gutters p-5 justify-content-center">
+        <h1 class="h1-font">USER REVIEWS</h1>
+      </div>
+      <div class="row no-gutters justify-content-center">
+        <div class="d-none d-lg-block col-lg-1 text-center align-self-center">
+          <i class="fas fa-angle-left"></i>
+        </div>
+        <p class="col-lg-4 mr-3 ml-3 mb-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to make a type
+              specimen book. It has survived not only five centuries, but also the leap into electronic
+              typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
 
+        </p>
+        <div class="d-none d-lg-block col-lg-1 text-center align-self-center">
+          <i class="fas fa-angle-right"></i>
+        </div>
+
+      </div>
+      <h2 class="row no-gutters justify-content-center h1-font">SUSAN HANSEN</h2>
+      <p class="row no-gutters justify-content-center" >level 80 scout</p>
+    </div>
+    <div class="row no-gutters robot-cave justify-content-center">
+      <div class="col-lg-5 m-5 robot-cave-text text-center align-self-center">
+        <h1 class="h1-font ">WELCOME TO</h1>
+        <h1 class="h1-font">ROBOT CAVE</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley
+        </p>
+        <button type="button" class="btn btn-danger btn-learn-more">EXPLORE</button>
+      </div>
+      <div class="col-lg-6 d-flex justify-content-center">
+        <img src="assets/h2-img-3.png" class="img-fluid">
+      </div>
+    </div>
+    <div class="video-img text-center">
+
+        <img src="assets/h2-video-img-1.jpg" class="img-fluid ">
+
+    </div>
+    <div class="footer">
+      <div class="footer-menu">
+
+          <div class="col-1-footer mb-3">
+            <ul class="ul-footer"></ul>
+            <li class="li-footer">
+              <a class="text-white" href="#">HOME</a>
+            </li>
+            <li class="li-footer">
+              <a class="text-white" href="#">ABOUT US</a>
+            </li>
+            <li class="li-footer">
+              <a class="text-white" href="#">BLOG</a>
+            </li>
+            <li class="li-footer">
+              <a class="text-white" href="#">SHOP</a>
+            </li>
+          </ul>
+          </div>
+          <div class="col-2-footer">
+            <ul class="ul-footer">
+            <li class="li-footer">
+              <a class="text-white" href="#">CONTACT US</a>
+            </li>
+            <li class="li-footer">
+              <a class="text-white" href="#">PORTFOLIO</a>
+            </li>
+          </ul>
+          </div>
+
+
+      </div>
+      <div class="black-line"></div>
+      <div class="news-letter">
+        <input type="text" class="text-line subcribe-line" placeholder="subcribe to our news letter" />
+        <div class="input-group-append">
+          <span class="input-group-text"><i class="far fa-envelope "></i></span>
+        </div>
+      </div>
+      <div class="icons">
+        <i class="fab fa-facebook-square p-3"></i>
+        <i class="fab fa-facebook-square p-3"></i>
+        <i class="fab fa-facebook-square p-3"></i>
+        <i class="fab fa-facebook-square p-3"></i>
+        <i class="fab fa-facebook-square p-3"></i>
+      </div>
+    </div>
   </body>
 </html>
